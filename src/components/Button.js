@@ -1,7 +1,7 @@
-import React,{useState}from "react"
+import React,{useState} from "react"
 
 const Button =()=>{
-    let [cnt,setCnt]=useState(1);
+    let [cnt,setCnt]=useState(0);
 
     return (
         <div>
